@@ -173,11 +173,5 @@ PRs welcome. Suggested workflow:
 3. Run lint/build locally
 4. Open PR with clear description / screenshots
 
-## 📝 License
-Add a license file (MIT recommended). Example header:
-```
-MIT License © 2025 Your Name
-```
 
----
 Enjoy faster learning. If this helps you, consider starring the repo or sharing with classmates! 🚀

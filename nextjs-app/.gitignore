@@ -1,0 +1,116 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+
+# testing
+
+# build cache
+.turbo
+.swc
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+Thumbs.db
+*.orig
+*.rej
+*.log
+*.tgz
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.pid
+*.pid.lock
+*.seed
+*.log.*
+*.sublime-* 
+
+# test outputs
+coverage/
+/.nyc_output
+reports/
+
+# debug
+npm-debug.log*
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+.envrc
+.envrc.private
+yarn-debug.log*
+yarn-error.log*
+
+
+# IDE / Editor
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+.fleet/
+
+# TypeScript
+# local env files
+.env*.local
+
+# Mac/Linux/Windows noise
+.AppleDouble
+.LSOverride
+Icon?
+ehthumbs.db
+Desktop.ini
+
+# Image optimization caches
+.squoosh-cache
+.cache
+
+# Optional lock & artifacts
+*.bak
+*.tmp
+*.swp
+*.swc
+*.map
+
+# Generated exports
+exports/**
+
+# Data & model artifacts (custom)
+models/
+*.ckpt
+*.pt
+*.bin
+*.onnx
+
+# Avoid committing large raw data
+data/raw/**
+!data/README.md
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts 
